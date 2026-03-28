@@ -1,0 +1,26 @@
+LEo {
+    .user-msg {
+        border-left: tall $accent;
+        padding: 1 2;
+        margin: 1 1 1 2;
+        color: $accent;
+        background: $surface;
+    }
+
+    .leo-response {
+        border-left: tall $primary;
+        padding: 1 2;
+        margin: 1 1 1 2;
+        color: $foreground;
+        background: $panel;
+    }
+
+    #usr_input {
+        dock: bottom;
+        margin-bottom: 2;
+    }
+
+    #chat-view {
+        background: $background;
+    }
+}
